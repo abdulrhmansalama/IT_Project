@@ -13,19 +13,36 @@ body {
 
 /* Header */
 header {
-    background-color: #007bff;
+    background: #007bff;
     color: white;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
-nav {
-    background-color: #0056b3;
-    padding: 10px;
-    text-align: center;
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 nav a {
     color: white;
-    margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
