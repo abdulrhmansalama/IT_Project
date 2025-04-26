@@ -69,50 +69,52 @@ nav a {
 .products {
     background: #fff;
     padding: 50px 0;
+    text-align: center;
 }
 
 .products h2 {
-    text-align: center;
     font-size: 30px;
     margin-bottom: 30px;
 }
 
-.product-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
+.product-item {
+    display: inline-block;
+    width: 30%;
     margin: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
 }
 
-.product-card:hover {
-    transform: scale(1.02);
-}
-
-.product-card i {
-    font-size: 36px;
-    color: #007bff;
-    margin-right: 10px;
-}
-
-.product-card h3 {
+.product-item h3 {
     font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #666;
     margin-bottom: 10px;
 }
 
-.product-card ul {
-    list-style: none;
-    padding-left: 0;
+.btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
 }
 
-.product-card li {
-    margin-bottom: 5px;
-}
-
-.product-card strong {
-    font-size: 18px;
+.btn:hover {
+    background: #0056b3;
 }
 
 /* Footer */
